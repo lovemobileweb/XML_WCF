@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b9119d6f-4552-4667-85ed-4c1b0993fcfd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://retailer365.sands.com.mo/RetailerService/wcfRetailer365.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="wcfRetailer365.xsd" MetadataType="Schema" ID="1ea83ae4-6a87-4cc7-9152-b55f5ad4ed1a" SourceId="1" SourceUrl="https://retailer365.sands.com.mo/RetailerService/wcfRetailer365.svc?xsd=xsd4" />
+    <MetadataFile FileName="wcfRetailer3651.xsd" MetadataType="Schema" ID="85d04c84-f77a-41d4-b730-7cce6b118a58" SourceId="1" SourceUrl="https://retailer365.sands.com.mo/RetailerService/wcfRetailer365.svc?xsd=xsd3" />
+    <MetadataFile FileName="wcfRetailer365.disco" MetadataType="Disco" ID="b83251de-e1ab-425f-8237-655e81943b04" SourceId="1" SourceUrl="https://retailer365.sands.com.mo/RetailerService/wcfRetailer365.svc?disco" />
+    <MetadataFile FileName="wcfRetailer3652.xsd" MetadataType="Schema" ID="8a377850-abc7-4f91-b401-e3d6d40d44a7" SourceId="1" SourceUrl="https://retailer365.sands.com.mo/RetailerService/wcfRetailer365.svc?xsd=xsd1" />
+    <MetadataFile FileName="wcfRetailer3653.xsd" MetadataType="Schema" ID="c63f6693-8e5f-46ed-b244-2dbfad1abb8c" SourceId="1" SourceUrl="https://retailer365.sands.com.mo/RetailerService/wcfRetailer365.svc?xsd=xsd2" />
+    <MetadataFile FileName="wcfRetailer3654.xsd" MetadataType="Schema" ID="c4024fc2-decc-42d2-a29d-b4cd7fa117be" SourceId="1" SourceUrl="https://retailer365.sands.com.mo/RetailerService/wcfRetailer365.svc?xsd=xsd0" />
+    <MetadataFile FileName="wcfRetailer365.wsdl" MetadataType="Wsdl" ID="873fd9b2-f648-4acc-8a92-23f3ca5d0c3d" SourceId="1" SourceUrl="https://retailer365.sands.com.mo/RetailerService/wcfRetailer365.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
